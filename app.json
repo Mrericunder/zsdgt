@@ -1,0 +1,25 @@
+{
+  "name": "vmess or vles",
+  "description": "vmess or vles",
+  "keywords": [
+    "vmess or vles"
+  ],
+  "env": {
+    "PROTOCOL": {
+      "description": "要部署的协议vmess或vless,请填小写的vmess或vless",
+      "value": "vmess",
+      "required": true
+    },
+    "UUID": {
+      "description": "UUID充当配置的路径和账号密码,请妥善保存,可生成UUID的网站: https://www.uuidgenerator.net",
+      "value": "",
+      "required": false
+    } 
+  },
+  "website": "https://github.com/louyour/ngix-fixed",
+  "repository": "https://github.com/louyour/ngix-fixed",
+  "stack": "container",
+  "features": [
+    "runtime-dyno-metadata"
+  ]
+}
